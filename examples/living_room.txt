@@ -1,0 +1,14 @@
+A living room with dimensions of approximately 5 meters by 5 meters. The room has four walls:
+- North wall (from (0,0,0) to (5,0,0))
+- East wall (from (5,0,0) to (5,5,0))
+- South wall (from (5,5,0) to (0,5,0))
+- West wall (from (0,5,0) to (0,0,0))
+
+The room has the following features:
+- A door on the west wall, positioned at the center (0,2.5,0) with a width of 1 meter and a height of 2 meters
+- A window on the east wall, positioned at the center (5,2.5,1) with a width of 1.5 meters and a height of 1 meter
+
+The room contains the following furniture:
+- A sofa against the north wall, positioned at (2.5,0.5,0) with dimensions of 2 meters wide, 0.8 meters deep, and 0.8 meters tall
+- A coffee table in the center of the room at (2.5,2.5,0) with dimensions of 1.2 meters wide, 1.2 meters deep, and 0.5 meters tall
+- A TV against the south wall, positioned at (2.5,4.5,0) with dimensions of 1.5 meters wide, 0.2 meters deep, and 0.8 meters tall

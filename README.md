@@ -1,5 +1,7 @@
 # Arc LLM
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/arc-llm/blob/main/colab_runner.ipynb)
+
 Arc LLM is a project that integrates Claude API with [SpatialLM](https://github.com/manycore-research/SpatialLM) to convert text descriptions into 2D and 3D spatial representations. While SpatialLM processes 3D point cloud data from videos to generate structured 3D scene understanding outputs, Arc LLM takes text descriptions from Claude API and converts them directly into the structured layout format that SpatialLM uses for visualization.
 
 ## Overview
@@ -41,7 +43,19 @@ pip install torch numpy scipy einops rerun-sdk requests torchsparse
 
 ### Google Colab
 
-You can also run Arc LLM in Google Colab using the provided notebook: `arc_llm_colab.ipynb`
+You can run Arc LLM directly in Google Colab without installing anything on your local machine:
+
+1. Click the "Open in Colab" badge at the top of this README
+2. The notebook will open in Google Colab
+3. Run the cells in order to set up the environment and use Arc LLM
+
+The Colab notebook provides all the functionality of Arc LLM, including:
+- Text-to-3D conversion
+- Visualization
+- Example selection (simple room or complex house)
+- Web interface (optional)
+
+For more details on setting up and using Arc LLM with GitHub and Google Colab, see the [GitHub Setup Guide](GITHUB_SETUP.md).
 
 ## How It Works
 

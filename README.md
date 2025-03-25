@@ -1,6 +1,6 @@
 # Arc LLM
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/arc-llm/blob/main/colab_runner.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lillylight/arc-llm/blob/main/colab_runner.ipynb)
 
 Arc LLM is a project that integrates Claude API with [SpatialLM](https://github.com/manycore-research/SpatialLM) to convert text descriptions into 2D and 3D spatial representations. While SpatialLM processes 3D point cloud data from videos to generate structured 3D scene understanding outputs, Arc LLM takes text descriptions from Claude API and converts them directly into the structured layout format that SpatialLM uses for visualization.
 
@@ -26,7 +26,7 @@ Arc LLM consists of the following components:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/arc-llm.git
+git clone https://github.com/lillylight/arc-llm.git
 cd arc-llm
 
 # Clone SpatialLM repository

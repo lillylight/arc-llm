@@ -20,8 +20,8 @@ After creating the repository, GitHub will show you commands to push an existing
 # Make sure you're in the arc-llm directory
 cd arc-llm
 
-# Set the remote URL (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/arc-llm.git
+# Set the remote URL
+git remote add origin https://github.com/lillylight/arc-llm.git
 
 # Push the repository to GitHub
 git push -u origin main
@@ -55,7 +55,7 @@ There are two ways to use Arc LLM in Google Colab:
 2. Navigate to the `colab_runner.ipynb` file.
 3. Click on the "Open in Colab" button (if it appears).
 4. If the button doesn't appear, you can manually open it in Colab:
-   - Copy the URL of the raw file: `https://raw.githubusercontent.com/YOUR_USERNAME/arc-llm/main/colab_runner.ipynb`
+   - Copy the URL of the raw file: `https://raw.githubusercontent.com/lillylight/arc-llm/main/colab_runner.ipynb`
    - Go to [Google Colab](https://colab.research.google.com/)
    - Click on "File" > "Open notebook"
    - Select the "GitHub" tab
@@ -75,11 +75,9 @@ There are two ways to use Arc LLM in Google Colab:
 To share Arc LLM with others, you can:
 
 1. Share the link to your GitHub repository
-2. Share a direct link to the Colab notebook: `https://colab.research.google.com/github/YOUR_USERNAME/arc-llm/blob/main/colab_runner.ipynb`
+2. Share a direct link to the Colab notebook: `https://colab.research.google.com/github/lillylight/arc-llm/blob/main/colab_runner.ipynb`
 3. Add a "Open in Colab" badge to your README.md:
 
 ```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/arc-llm/blob/main/colab_runner.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lillylight/arc-llm/blob/main/colab_runner.ipynb)
 ```
-
-Replace `YOUR_USERNAME` with your actual GitHub username.
